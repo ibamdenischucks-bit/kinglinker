@@ -1,13 +1,6 @@
-[build.environment]
-NODE_VERSION = "18"
 [build]
   publish = "netlify/public"
   functions = "netlify/functions"
-
-[[redirects]]
-  from = "/"
-  to = "/index.html"
-  status = 200
 
 [[redirects]]
   from = "/*"
@@ -17,3 +10,6 @@ NODE_VERSION = "18"
 [functions]
   node_bundler = "esbuild"
 
+# ADD THIS SECTION:
+[build.environment]
+  NODE_VERSION = "18"
