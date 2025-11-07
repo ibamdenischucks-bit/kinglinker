@@ -8,3 +8,8 @@
   "dependencies": {},
   "devDependencies": {}
 }
+{
+  "engines": {
+    "node": ">=18 <19"
+  }
+}
