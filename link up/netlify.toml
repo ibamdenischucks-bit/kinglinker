@@ -7,9 +7,5 @@
   to = "/index.html"
   status = 200
 
-[functions]
-  node_bundler = "esbuild"
-
-# ADD THIS SECTION:
 [build.environment]
   NODE_VERSION = "18"
