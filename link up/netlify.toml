@@ -1,3 +1,5 @@
+[build.environment]
+NODE_VERSION = "18"
 [build]
   publish = "netlify/public"
   functions = "netlify/functions"
@@ -14,3 +16,4 @@
 
 [functions]
   node_bundler = "esbuild"
+
