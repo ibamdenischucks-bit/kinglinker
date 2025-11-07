@@ -1,0 +1,10 @@
+{
+  "name": "waps-dashboard",
+  "version": "1.0.0",
+  "description": "Social platform for profile sharing and XP system",
+  "scripts": {
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
